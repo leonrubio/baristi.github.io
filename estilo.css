@@ -1,0 +1,177 @@
+body{
+    background: #ED9E67; 
+}
+h1{ 
+	color:#0B0603;
+	font-family: arial;
+	font-size: 60px;
+	text-align:center;       
+}
+p{
+	color:#0B0603;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style:italic;
+}
+table{
+	color:#0B0603;
+	border-color: center;
+	border-color: black;
+	font-style:italic;
+	border: 2;
+	width: 90%;
+	
+}
+tr{
+	color:#0B0603;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	background-color:black;
+	border-color:black;
+	font-style:italic;
+}
+td{
+	color:#F3ECF7;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	border-color: black;
+	border-style:italic;
+}
+/*para los botones*/
+.sin{ 
+	border-style: transparent;
+	border:0;
+	background-color: transparent;
+}
+th{
+	color:#0B0603;
+	text-align: center;
+	border-color: center;
+	background-color:white;
+}
+/*esta codigo es para darle tamaño a las fotos de productos*/
+.img{
+	 width:250px;
+	 height:250px;
+}
+.img1{
+	 width:300px;
+	 height:250px;
+}
+.img2{
+	 width:200px;
+	 height:200px;
+}
+.divr{
+	border-radius: 20px;
+	background:#AD8B73;
+	border:4px solid #AD8B73;
+}
+.div2r{
+	border-radius: 20px;
+	background:#CEAB93;
+	border:4px solid #CEAB93;
+}
+.div3r{
+	border-radius: 20px;
+	background:#E3CAA5;
+	border:4px solid #E3CAA5;
+	}
+.div4r{
+	border-radius: 20px;
+	background:#DAB88B;
+	border:4px solid #DAB88B;
+	}	
+.caja{ 
+	height:300px;
+	width:250px;
+	background: #eee;
+	border: 1px solid #eee;
+	margin: 5px;
+	color:black;
+	text-align:center;
+	font-family: "tato", sans-serif;
+	display: inline-block;
+}
+.caja:hover{
+/*agregar sombra al div*/
+/*             X   Y  radio  color*/
+	box-shadow:0  0 1opx  red;
+	/*cambia la escala de tamaño de la caja*/
+	transform: scale(1.3)
+}
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size:30px;
+	color:black;
+	font-weight: bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size: 25px;
+}
+@font-face{
+	font-family: "mifuente";
+	src: 
+}
+#fuente-google{
+	font-family: "mifuente";
+	srl:(Papernotes.otf);
+}
+#fuente-Papernotes{
+	font-family: "mifuente";
+}
+.div1{
+	background: #ECF8ED;
+	height: 150px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div1:hover{
+	width:900px
+}
+.div2{
+	background: #E1F5A9;
+	height: 150px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div2:hover{
+	width:800px
+}
+.div3{
+	background: #BCF5A9;
+	height: 150px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div3:hover{
+	width:900px
+}
+.div4{
+	height: 150px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+	background: #A9F5D0;
+}
+.div4:hover{
+	width:900px
+	
+}
+.contenedor{
+	display:flex
+}
+

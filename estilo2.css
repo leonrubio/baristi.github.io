@@ -1,0 +1,16 @@
+body{
+    background: #ED9E67; 
+}
+h1{ 
+	color:#0B0603;
+	font-family: arial;
+	font-size: 60px;
+	text-align:center;       
+}
+p{
+	color:#0B0603;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style:italic;
